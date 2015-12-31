@@ -1,8 +1,9 @@
 #RippleView
 
-a view like ripple on android
+A view like ripple on android
 
 ##Examples
+the view have some set method:
 
 ```
 rippleView.setCircleColor(Color.RED);
@@ -12,14 +13,15 @@ rippleView.setMinRadiu(0);
 rippleView.setRingWidth(5);
 rippleView.setVelocity(1);
 ```
+or you can download the sample from github
         
-<!--##Usage
+##Usage
 **Gradle**
 
 ```
 dependencies {
-  compile 'cn.softrice:rippleView:0.0.1'
+  compile 'cn.softrice:rippleView:0.0.2'
 }
-```-->
+```
 
 

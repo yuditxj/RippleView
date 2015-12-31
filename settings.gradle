@@ -1,1 +1,1 @@
-include ':app', ':ripple-view'
+include ':app', ':rippleview'

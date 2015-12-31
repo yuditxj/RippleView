@@ -1,4 +1,4 @@
-package cn.softrice.ripple_view;
+package cn.softrice.rippleview;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -17,6 +17,7 @@ public class RippleView extends View {
 
     //计时器
     Timer timer;
+    int circleColor;//水圈的颜色
     int circlePadding;// 水圈之间的距离 px
     int firstRadiu;//最里圈水圈的半径 px
     int maxRadiu;//水圈的最大直径 px
@@ -25,6 +26,32 @@ public class RippleView extends View {
     int center;//水圈中心坐标 px
     int minRadiu;//最小半径  px
     Paint paint;
+
+    public void setCircleColor(int circleColor) {
+        this.circleColor = circleColor;
+        paint.setColor(circleColor);
+    }
+
+    public void setCirclePadding(int circlePadding) {
+        this.circlePadding = circlePadding;
+    }
+
+
+    public void setMaxRadiu(int maxRadiu) {
+        this.maxRadiu = maxRadiu;
+    }
+
+    public void setVelocity(int velocity) {
+        this.velocity = velocity;
+    }
+
+    public void setRingWidth(int ringWidth) {
+        this.ringWidth = ringWidth;
+    }
+
+    public void setMinRadiu(int minRadiu) {
+        this.minRadiu = minRadiu;
+    }
 
     public RippleView(Context context) {
         super(context);
@@ -52,10 +79,11 @@ public class RippleView extends View {
         minRadiu = dp2px(32);
         ringWidth = 3;
         paint = new Paint();
-        paint.setColor(Color.WHITE);
         paint.setStyle(Paint.Style.STROKE);
         paint.setAntiAlias(true);
         paint.setStrokeWidth(ringWidth);
+        circleColor = Color.WHITE;
+        paint.setColor(circleColor);
     }
 
     @Override

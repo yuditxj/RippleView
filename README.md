@@ -1,6 +1,6 @@
 #RippleView
 
-this is a view like ripple on android
+a view like ripple on android
 
 ##Examples
 

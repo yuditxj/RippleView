@@ -15,6 +15,7 @@ rippleView.setRingWidth(5);
 rippleView.setVelocity(1);
 ```
 ![image](./sample.png)
+
 or you can download the sample from github
         
 ##Usage

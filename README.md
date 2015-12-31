@@ -13,7 +13,8 @@ rippleView.setMaxRadiu(400);
 rippleView.setMinRadiu(0);
 rippleView.setRingWidth(5);
 rippleView.setVelocity(1);
-```![image](./sample.png)
+```
+![image](./sample.png)
 or you can download the sample from github
         
 ##Usage

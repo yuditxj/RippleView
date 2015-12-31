@@ -3,7 +3,6 @@
 A view like ripple on android
 
 ##Examples
-![image](/Users/softrice/Library/Containers/com.tencent.qq/Data/Library/Application Support/QQ/Users/619735685/QQ/Temp.db/DEF13DA4-8414-4C3C-B904-495ADD995512.png)
 
 the view have some set method:
 

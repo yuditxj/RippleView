@@ -4,7 +4,6 @@ A view like ripple on android
 
 ##Examples
 
-the view have some set method:
 
 ```
 rippleView.setCircleColor(Color.RED);
